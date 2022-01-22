@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
       title: `Savio Sebastian`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.saviosebastian.com`
   },
   plugins: ["gatsby-plugin-sass", {
     resolve: 'gatsby-plugin-google-analytics',
