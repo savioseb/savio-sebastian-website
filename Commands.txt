@@ -1,0 +1,12 @@
+Start the local development server with
+
+  npm run develop
+
+See all commands at
+
+  https://www.gatsbyjs.com/docs/gatsby-cli/
+
+
+
+To create a production build, use 
+  gatsby build
