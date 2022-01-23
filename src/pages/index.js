@@ -1,10 +1,25 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
+import { siteMetadata } from "../../gatsby-config";
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
+      <Helmet
+        meta={[
+          {
+            name: 'title',
+            content:  siteMetadata.title,
+          },
+          {
+              name: 'description',
+              content:  siteMetadata.description,
+          },
+      ]} >
+        <title>{siteMetadata.title}</title>
+      </Helmet>
+
       <h1 >
         Welcome to saviosebastian.com
       </h1>
